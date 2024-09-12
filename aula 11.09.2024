@@ -1,0 +1,107 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNGrlCTGvBJUcvPdr99RD7i",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/eduardovolanti/Aula_Massaki/blob/main/aula%2011.09.2024\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Numero par ou impar"
+      ],
+      "metadata": {
+        "id": "Z_zxd47VoKdv"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XXnAoeThh9k-",
+        "outputId": "3a540840-3394-468f-aea8-41a068a1b733"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um numero inteiro:0\n",
+            "o número 0 é par.\n"
+          ]
+        }
+      ],
+      "source": [
+        "numero = int(input(\"digite um numero inteiro:\"))\n",
+        "if numero % 2 == 0:\n",
+        "  print(f\"o número {numero} é par.\")\n",
+        "else:\n",
+        "  print(f\"o número {numero} é impar.\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "raiz quadrada"
+      ],
+      "metadata": {
+        "id": "Eb8zrmNJsg6d"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math\n",
+        "\n",
+        "numero = float(input(\"digite um número:\"))\n",
+        "if numero >= 0:\n",
+        "  raiz_quadrada = math.sqrt(numero)\n",
+        "  print(f\"A raiz quadrada de {numero} é {raiz_quadrada:.2f}\")\n",
+        "else:\n",
+        "  print(\"Não existe raiz real para este numero\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SRRsTVRDphgh",
+        "outputId": "3b723a69-b487-42a4-a57c-4d9ece69ccdd"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um número:25\n",
+            "A raiz quadrada de 25.0 é 5.00\n"
+          ]
+        }
+      ]
+    }
+  ]
+}

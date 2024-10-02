@@ -1,0 +1,142 @@
+Valor Total = 3 Pontos) No programa a seguir, o programador deveria fazer o pseudocódigo, o fluxograma e código Python de um programa para solicitar ao usuário um valor de temperatura em Graus Celsius (C) e em seguida, converter e exibir o valor da temperatura correspondente em Graus Fahrenheit (F). 
+
+Sabe-se que por uma desatenção, ele cometeu um mesmo erro tanto no pseudocódigo, no fluxograma quanto no código, fazendo com que a simulação do código gerasse o resultado exibido na Figura 1. Portanto, pede-se a você apontar o erro ocorrido (Valor = 1,5 Pontos) e informar como você corrigiria este erro (Valor = 1,5 Pontos). OBS: Basta mostrar somente o pseudocódigo, ou o fluxograma ou apenas o código corrigido para demonstrar como você corrigiria este erro. DICA:  Atente para as variáveis e tipos de dados	Pseudocódigo:
+
+Início:
+
+	inteiro: C
+
+	Caracter: F
+
+Ler (C)
+
+Calcular F = (9/5)*C) + '32'
+
+Escrever (F)
+
+FIM
+
+
+
+Figura 1 – Tela do código e simulação Python
+
+ 
+
+
+
+Resposta:
+
+O erro que foi cometido pelo programador é visto na parte do pseudocódigo na linha que calcula a temperatura em Fahrenheit
+
+ F= (9/5*C) + '32'
+
+Variável F foi declarada como caracter, enquanto deveria ser número, o valor ‘32’ está entre aspas então ele é tratado como uma string e não como um numero.
+
+O comando certo teria que ser assim:
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+2.	Quais são as 3 formas de se representar um algoritmo em linguagem de programação (Valor = 3,0 Pontos). Em seguida, escolha uma das formas e exemplifique (Valor = 0,5 Pontos).
+
+
+
+
+
+
+
+Pseudocódigo: Uma representação textual que descreve a lógica do algoritmo de forma clara e legível
+
+
+
+Fluxograma: Uma representação gráfica que utiliza formas geométricas para ilustrar o fluxo do algoritmo
+
+
+
+Código Fonte: A implementação do algoritmo em uma linguagem de programação específica, como Python
+
+
+
+Exemplo de pseudocódigo:
+
+Leia (x,y) {Esta linha é um comentário}
+
+Se x > y então
+
+      Escreva (“x é maior”)
+
+Senão
+
+Se y > x então
+
+       Escreva (“y é maior”)
+
+Senão
+
+      Escreva (“x e Y são iguais”)
+
+Fim 
+
+
+
+
+
+3.	(Valor = 3,0 Pontos) Explique quais são os quatro principais tipos de dados usados em linguagem de programação e demonstre (Valor = 0,5 Pontos).
+
+
+
+Int são números inteiros, ou seja, números sem parte decimal.
+
+Float são números racionais, que podem ter parte decimal.
+
+Str são sequências de caracteres, ou seja, textos.
+
+Bool são valores lógicos, que podem ser verdadeiro (true) ou falso (false). 
+
+
+
+EXP:
+
+Inteiro
+
+numero_inteiro = 10
+
+print("Número inteiro:", numero_inteiro)
+
+
+
+Ponto Flutuante
+
+numero_ponto_flutuante = 3.14
+
+print("Número ponto flutuante:", numero_ponto_flutuante)
+
+
+
+String
+
+texto = "Olá, mundo!"
+
+print("String:", texto)
+
+
+
+Booleano
+
+valor_booleano = True
+
+print("Valor booleano:", valor_booleano)
+
+
+
+
+
